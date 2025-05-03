@@ -1,6 +1,6 @@
 //import { useState } from "react";
 //import Button from "./components/Button";
-import CameraFeed from "./components/CameraFeed";
+//import CameraFeed from "./components/CameraFeed";
 import Camera from "./components/Camera";
 
 const BACKEND_URL = "http://127.0.0.1:8000"; //use ipconfig to find SERVER IP
