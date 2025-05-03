@@ -3,7 +3,8 @@
 //import CameraFeed from "./components/CameraFeed";
 import Camera from "./components/Camera";
 
-const BACKEND_URL = "http://127.0.0.1:8000"; //use ipconfig to find SERVER IP
+//If testing locally const BACKEND_URL = "http://127.0.0.1:8000"; //use ipconfig to find SERVER IP
+const BACKEND_URL = "http://18.189.145.253:8000"; //Comment out if not test production
 
 function App() {
   const toggleLED = async (on: boolean) => {
